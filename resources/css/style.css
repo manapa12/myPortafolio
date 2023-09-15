@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-menu{
+    display: none;
+ }
+
+header{
+    background-color: #EBEBEB;
+    
+
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.logos p{
+    font-size: 1.2rem;
+
+}
+
+/*main info*/
+
+.main-section{
+    height: 40rem;
+    background-image: url(/resources/images/blackBackground.jpg);
+    text-align: center;
+    
+}
+
+.main-info{
+    position: relative;
+    top: 11rem;
+    display: inline-block;
+    padding: 3rem;
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border: 2px solid white;
+    word-spacing: 0.1rem;
+    font-size: 1.3rem;
+}
+
+.main-info h1{
+    font-weight: 300;
+    margin-bottom: 0.625rem;
+    text-align: left;
+}
+
+.my-name{
+ font-weight: bolder;
+}
+
+.main-info button{
+    padding: 0.8rem 5rem;
+    border-radius: 0.9rem;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.2rem;
+    border: 2px solid white;
+    margin-top: 0.825rem;
+}
+
+.main-info button:active{
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 0.8rem;
+}
+
+
+
+
+
