@@ -48,7 +48,7 @@ header{
 
 .main-section{
     height: 40rem;
-    background-image: url(/resources/images/blackBackground.jpg);
+    background-image: url("resources/images/blackBackground.jpg");
     text-align: center;
     
 }
