@@ -19,18 +19,19 @@
       type="image/x-icon"
       href="/resources/images/computer.png"
     />
+    <script src="main.js" defer></script>
   </head>
   <body>
-    <header>
+    <header id="my-header">
       <nav>
         <div class="logos">
-          <span class="material-symbols-outlined"> menu </span>
+          <span class="material-symbols-outlined" id="menu-button"> menu </span>
           <p>DevLabs</p>
         </div>
-        <ul class="my-menu">
-          <a href="#"><li>About Me</li></a>
-          <a href="#"><li>Skills</li></a>
-          <a href="#"><li>My CV</li></a>
+        <ul class="my-menu" id="my-menu">
+          <a href="#about-myself"><li>About Me</li></a>
+          <a href="#my-skills"><li>Skills</li></a>
+          <a href="#mail"><li>Contact</li></a>
         </ul>
       </nav>
     </header>
@@ -39,11 +40,11 @@
         <h1>
           Hello, I'm<br /><strong class="my-name">Manuel Aparicio</strong>
         </h1>
-        <button class="cv-button">Download CV</button>
+        <button id="cv-download" class="cv-button">Download CV</button>
       </div>
     </div>
     <div class="about-me-container">
-      <div class="about-me">
+      <div class="about-me" id="about-myself">
         <img src="/resources/images/animePc.png" alt="Person using PC" />
         <div class="info">
           <h3>About Me</h3>
@@ -55,7 +56,7 @@
       </div>
     </div>
     <div class="skills-container">
-      <h3>Skills</h3>
+      <h3 class="skills-h3" id="my-skills">Skills</h3>
       <div class="skills">
         <figure>
           <img src="/resources/images/htmlLogo.png" alt="HTNL" />
@@ -74,7 +75,7 @@
     <footer>
       <div class="footer-container">
         <p>Copyright Manuel Aparicio @2023. All rights reserves.</p>
-        <p>Contact: manuelr.aparicio@hotmail.com</p>
+        <p id="mail">Contact: manuelr.aparicio@hotmail.com</p>
       </div>
     </footer>
   </body>
